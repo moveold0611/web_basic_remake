@@ -1,0 +1,76 @@
+.app-main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px auto 0px;
+    padding: 0px 32px;
+    width: 1280px;  
+    height: 4219px;
+    background-color: rgb(34, 39, 46);
+}
+
+
+.main-left {
+    margin-top: 32px;
+    width: 296px;
+    height: 4219px;
+}
+
+.main-right {
+    width: 896px;
+    height: 4219px;
+    background-color: #111;
+}
+
+.img-border {
+    width: 100%;
+    height: 296px;
+    border: 2px solid rgb(34, 39, 46);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-border img {
+        width: 100%;
+}
+
+.profile-names-container {
+    padding: 16px 0px;
+}
+
+.profile-user-name {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.profile-user-username {
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(110,123,135);
+}
+
+
+.edit-profile-buttons {
+    width: 296px;
+    height: 32px;
+    margin-bottom: 16px;
+}
+
+.follow-link {
+    color: rgb(110,123,135);
+    text-decoration: none;
+}
+
+.follow-link, 
+.follow-font-b {
+    font-weight: 300;
+}
+
+.follow-container .follow-font-b {
+    color: rgb(173,186,199);
+    font-weight: 500;
+}
+
+.follow-container a *:hover,
+.follow-container a:hover {
+    color: #0969da;
+}

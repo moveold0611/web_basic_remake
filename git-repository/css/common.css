@@ -1,0 +1,13 @@
+.btn {
+    border: 1px solid rgb(70,78,87);
+    background-color: rgb(55,62,71);    
+    border-radius: 6px;
+    padding: 5px 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.wf {
+    width: 100%;
+
+}
