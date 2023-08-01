@@ -1,0 +1,128 @@
+
+.main-right {
+    width: 60%;
+    height: 4219px;
+    max-width: 896px;
+    flex-grow: 1;
+}
+
+.repositories-main-options {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    border-bottom: 1px solid rgb(55,62,71);        
+    max-width: 896px;
+    min-width: 220px;
+    white-space: nowrap;
+}
+
+.find-repository-input {
+    margin-right: 10px;
+    width: 394px;
+    border: 1px solid rgb(55,62,71);
+    border-radius: 6px;
+    max-width: 505px;
+    min-width: 220px;
+}
+
+.repositories-items {
+    border-bottom: 1px solid rgb(55,62,71);
+    padding: 24px 0px;
+    max-width: 896px;
+    height: 138px;
+}
+
+.repositories-items-block {
+    position: relative;
+    max-width: 896px;
+    height: 89px;
+}
+
+.repositories-items-name-and-type {
+    display: flex;
+    max-width: 672px;
+    height: 30px;
+    
+}
+
+.repositories-items-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #539bf5;
+    text-decoration: none;
+}
+
+.repositories-items-name:hover {
+    text-decoration: underline;
+}
+
+.repositories-type {
+    margin: 0px 0px 4px 4px;
+    padding: 0px 7px;
+    height: 20px;
+    width: 49px;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid rgb(110,123,135);
+    border-radius: 14px;
+}
+
+
+.repositories-text {
+    font-size: 14px;
+    margin-bottom: 8px;
+    padding-right: 24px;
+    width: 480px;
+}
+
+.repositories-update-block {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    margin-top: 8px;
+    width: 896px;
+    font-size: 12px;
+    font-weight: 200;   
+}
+
+.repositories-updated-time{
+    left: 10px;
+}
+
+
+.repositories-items-options {
+    position: absolute;
+    right: 0;
+    display: flex;
+    margin-left: 16px;
+    width: 149px;
+    right: 0;
+    top: 0;
+}
+
+.repositories-star-button {
+    display: flex;
+    inline-size: 10px;
+    padding: 3px 12px;
+    border: 1px 0px 1px 1px;
+    width: 73px;
+    height: 28px;
+    bord
+}
+
+.star-button-icon {
+    display: flex;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+.repositories-star-button-text {
+    font-size: 12px;
+}
+
+.repositories-star-options {
+
+    width: 34px;
+    height: 28px;
+}

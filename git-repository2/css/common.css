@@ -20,30 +20,12 @@
     color: white;
 }
 
-.btn-s-left,
-.btn-s-right {
-    padding: 3px 12px;
-    font-size: 12px;
-}
-
-.btn-s-left {
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-
-.btn-s-right {
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-}
-
 .text-input {
     padding: 5px 12px;
     border: 1px solid rgb(70,78,87);
     border-radius: 6px;
     outline: none;
 }
-
-
 
 .text-input:focus {
     outline: 2px solid #0969da;

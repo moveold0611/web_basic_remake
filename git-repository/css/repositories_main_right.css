@@ -1,0 +1,116 @@
+
+.main-right {
+    width: 60%;
+    height: 4219px;
+    max-width: 896px;
+    flex-grow: 1;
+}
+
+.repositories-main-options {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    border-bottom: 1px solid rgb(55,62,71);        
+    max-width: 896px;
+    min-width: 220px;
+    white-space: nowrap;
+}
+
+.find-repository-input {
+    margin-right: 10px;
+    width: 394px;
+    border: 1px solid rgb(55,62,71);
+    border-radius: 6px;
+    max-width: 505px;
+    min-width: 220px;
+}
+
+.repository-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+    border-bottom: 1px solid rgb(55,62,71);
+    height: 138px;
+}
+
+.repository-title {
+    height: 30px;
+}
+
+.repository-title a{
+    text-decoration: none;
+    color: #539bf5;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.repository-title a:hover{
+    text-decoration: underline;
+}
+
+.repository-access-type {
+    margin: 0px 0px 4px 4px;
+    padding: 0px 7px;
+    border: 1px solid rgb(55,62,71);
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.repository-description {
+    margin-bottom: 8px;
+    padding-right: 24px;
+}
+
+.repository-info {
+    margin-top: 16px;
+}
+
+.repository-skill-color {
+    display: inline-block;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    background-color: #e34c26;
+}
+
+.repository-skill-name {
+    margin-right: 16px;
+    font-size: 12px;
+}
+
+.repository-commit-date {
+    font-size: 12px;
+}
+
+.repository-list-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.star-buttons {
+    display: flex;
+}
+
+.star-buttons .btn-s-right {
+    border-left: 0px;
+}   
+
+.star-icon {
+    margin-right: 8px;  
+    font-size: 16px;    
+    font-weight: 700;
+}
+
+.commit-graph {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+}
+
+.graph-line {
+    width: 155px;
+    border-bottom: 1px solid #00d13469;
+}

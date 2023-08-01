@@ -8,14 +8,11 @@
     max-width: 1280px;  
 }
 
-
 .main-left {
     margin-top: 32px;
     width: 296px;
     height: 4219px;
 }
-
-
 
 .img-border {
     width: 100%;
@@ -41,13 +38,11 @@
     width: 34px;
     height: 34px;
     background-color: rgb(34, 39, 46);
-
-
     cursor: pointer;
 }
 
 .img-border img {
-        width: 100%;
+    width: 100%;
 }
 
 .profile-names-container {
@@ -65,7 +60,6 @@
     color: rgb(110,123,135);
 }
 
-
 .edit-profile-buttons {
     width: 296px;
     height: 32px;
@@ -75,7 +69,6 @@
 .follow-container {
     margin-bottom: 16px;
 }
-
 
 .follow-link {
     color: rgb(110,123,135);
@@ -138,7 +131,6 @@
 }
 
 .achievements-img{
-
     border-radius: 50%;
     width: 64px;
     height: 64px;
