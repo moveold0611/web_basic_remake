@@ -36,3 +36,32 @@ const loadBookList = () => {
 }).join("");
 
 };
+
+
+const addNewBook = () => {
+    const book = {
+        bookName: document.querySelector(".book-name").value,
+        author: document.querySelector(".author").value,
+        publisher: document.querySelector(".publisher").value
+    }
+    bookList.push(book);
+    loadBookList();
+}
+
+
+
+
+// const inputBookName = document.querySelector(".book-name");
+// const inputAuthor = document.querySelector(".author");
+// const inputPublisher = document.querySelector(".publisher")
+
+// const newBookName = inputBookName.value;
+// const newAuthor = inputAuthor.value;
+// const newPublisher = inputPublisher.value;
+
+// bookList.push({
+//     bookName: newBookName,
+//     author: newAuthor,
+//     publisher: newPublisher,
+// });
+// loadBookList();
