@@ -34,7 +34,6 @@ const loadBookList = () => {
             </li>
         `;
 }).join("");
-
 };
 
 
@@ -47,21 +46,3 @@ const addNewBook = () => {
     bookList.push(book);
     loadBookList();
 }
-
-
-
-
-// const inputBookName = document.querySelector(".book-name");
-// const inputAuthor = document.querySelector(".author");
-// const inputPublisher = document.querySelector(".publisher")
-
-// const newBookName = inputBookName.value;
-// const newAuthor = inputAuthor.value;
-// const newPublisher = inputPublisher.value;
-
-// bookList.push({
-//     bookName: newBookName,
-//     author: newAuthor,
-//     publisher: newPublisher,
-// });
-// loadBookList();
